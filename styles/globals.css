@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg1{
+  background: url(../assets/c1.jpeg);
+  background-size: cover;
+  width: 100vw;
+}
+.bg2{
+  background: url(../assets/c2.jpeg);
+  background-size: cover;
+}
+.bg3{
+  background: url(../assets/c3.jpeg);
+  background-size: cover;
+}
