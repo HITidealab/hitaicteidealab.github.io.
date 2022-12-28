@@ -63,15 +63,15 @@ const Index = () => {
         <div className='w-1/5 -ml-48 pr-10'>
           <h1 className='text-3xl -mt-[295px]'>Quick Links</h1>
           <div className='border-b border-black mb-8'></div>
-          <a className='text-black' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/FACULTY%20DEVELOPMENT%20PROGRAM%20ON%20MICRO%20%26NANO%20TECHNOLOGY.pdf?alt=media&token=ca44dda2-cc8f-423a-90fa-dd213b149bb7"} target={"_blank"}>FDP on Micro and Nano Technology</a>
+          <a className='text-black' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/FACULTY%20DEVELOPMENT%20PROGRAM%20ON%20MICRO%20%26NANO%20TECHNOLOGY.pdf?alt=media&token=ca44dda2-cc8f-423a-90fa-dd213b149bb7"} target={"_blank"} rel={"noreferrer"}>FDP on Micro and Nano Technology</a>
           <p></p>
-          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/IDEATION%20WORKSHOP%20ON%20_%20AEROTHON_.pdf?alt=media&token=53c0ff6b-8cb4-4f57-a55b-cfc0ee94c9e0' target={"_blank"}>Ideation Workshop: AEROTHRON</a>
+          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/IDEATION%20WORKSHOP%20ON%20_%20AEROTHON_.pdf?alt=media&token=53c0ff6b-8cb4-4f57-a55b-cfc0ee94c9e0' target={"_blank"} rel={"noreferrer"}>Ideation Workshop: AEROTHRON</a>
           <p></p>
-          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/SKILLING%20PROGRAM%20FOR%20STUDENTS%20ON%20IOT.pdf?alt=media&token=b0eaaa75-c8b7-4eae-a490-36e206ea641b' target={"_blank"}>Skilling Programme on IOT</a>
+          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/SKILLING%20PROGRAM%20FOR%20STUDENTS%20ON%20IOT.pdf?alt=media&token=b0eaaa75-c8b7-4eae-a490-36e206ea641b' target={"_blank"} rel={"noreferrer"}>Skilling Programme on IOT</a>
           <p></p>
-          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/OPEN%20DAY%20FOR%20SCHOOL%20STUDENTS%20PROGRAMME.pdf?alt=media&token=3e7a9bc3-05c7-46f0-9083-675a09025e10' target={"_blank"}>Open Day for School</a>
+          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/OPEN%20DAY%20FOR%20SCHOOL%20STUDENTS%20PROGRAMME.pdf?alt=media&token=3e7a9bc3-05c7-46f0-9083-675a09025e10' target={"_blank"} rel={"noreferrer"}>Open Day for School</a>
           <p></p>
-          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/STAFF%20DEVELOPMENT%20PROGRAM%20ON%20PCB%20DESIGN%20AND%20CIRCUIT%20REALIZATION.pdf?alt=media&token=36b957a1-3fd3-4981-93b0-163282fe4726' target={"_blank"}>SDP on PCB Design and Realization</a>
+          <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/STAFF%20DEVELOPMENT%20PROGRAM%20ON%20PCB%20DESIGN%20AND%20CIRCUIT%20REALIZATION.pdf?alt=media&token=36b957a1-3fd3-4981-93b0-163282fe4726' target={"_blank"} rel={"noreferrer"}>SDP on PCB Design and Realization</a>
         </div>
         <div className='w-3/5'>
           <h1 className='text-3xl text-blue-900'>

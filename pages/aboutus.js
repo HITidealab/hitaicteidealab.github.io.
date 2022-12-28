@@ -61,7 +61,7 @@ throughout the nation.<br/><br/>
 Further, an Idea Lab would be set up to pool the innovative ideas of students and to test their feasibility
 using various equipments, tools, consumables available under one roof for the conversions of an idea into a
 prototype. Furthermore, the Idea Lab would extend and go beyond the academic campus or a nearby
-region and collectively it could be the Nation's Idea Lab.
+region and collectively it could be the Nations Idea Lab.
 </p>
 <p className='w-2/3 mx-auto text-3xl font-semibold'>
   Objectives
