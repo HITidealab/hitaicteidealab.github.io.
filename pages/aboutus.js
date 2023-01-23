@@ -40,7 +40,7 @@ const AboutUs = () => {
         <Image width={150} height={150} src={hit}/>
         <div className='flex flex-col justify-center items-center'>
         <h1 className='text-5xl text-orange-700 font-bold'>HIT-AICTE IDEA LAB</h1>
-        <p className='text-[20px] -mt-5'>Haldia Institute Of Technology</p>
+        <p className='text-[20px] -mt-5'>Haldia Institute of Technology</p>
         <p className='text-[12px] -mt-5'>(An Autonomous Institute Under MAKAUT)</p>
         </div>
         <Image width={150} height={150} src={idea}/>
@@ -102,7 +102,7 @@ research.</li>
       <span className="ml-3 text-xl">HIT-AICTE IDEA LAB</span>
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 HIT-AICTE IDEA LAB
-    <br/><i className="fa-solid fa-envelope"></i> iipc_hit@hithaldi.in
+    <br/><i className="fa-solid fa-envelope"></i> iipc_hit@hithaldia.in
     <br/><i className="fa-solid fa-phone"></i> +91 81700 30555
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

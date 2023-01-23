@@ -40,7 +40,7 @@ const Index = () => {
         <Image width={150} height={150} src={hit}/>
         <div className='flex flex-col justify-center items-center'>
         <h1 className='text-5xl text-orange-700 font-bold'>HIT-AICTE IDEA LAB</h1>
-        <p className='text-[20px] -mt-5'>Haldia Institute Of Technology</p>
+        <p className='text-[20px] -mt-5'>Haldia Institute of Technology</p>
         <p className='text-[12px] -mt-5'>(An Autonomous Institute Under MAKAUT)</p>
         </div>
         <Image width={150} height={150} src={idea}/>
