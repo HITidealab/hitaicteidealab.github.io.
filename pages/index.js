@@ -99,7 +99,7 @@ IDEA Lab will provide all facilities under one roof, for conversion of an idea i
       <span className="ml-3 text-xl">HIT-AICTE IDEA LAB</span>
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 HIT-AICTE IDEA LAB
-    <br/><i className="fa-solid fa-envelope"></i> iipc_hit@hithaldi.in
+    <br/><i className="fa-solid fa-envelope"></i> iipc_hit@hithaldia.in
     <br/><i className="fa-solid fa-phone"></i> +91 81700 30555
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
