@@ -1,7 +1,5 @@
 import React, { useState ,useEffect} from 'react'
 import Image from 'next/image'
-import idea from "../assets/idea_lab.jpg"
-import hit from "../assets/hit_logo.jpg"
 
 import c1 from "../assets/c1.jpeg"
 import c2 from "../assets/c2.jpeg"
@@ -11,12 +9,16 @@ import c5 from "../assets/c5.jpeg"
 import c6 from "../assets/c6.jpeg"
 
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import Marquee from 'react-fast-marquee'
+
+import Header from '../components/header'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import Loading from "../components/loading"
 
 const Index = () => {
 
-  const router=useRouter()
+ 
 
   const [images,setImages]=useState([c1,c2,c3,c4,c5,c6])
   const [index,setIndex]=useState(0)
@@ -30,38 +32,33 @@ const Index = () => {
     },2000)
   },[index])
 
+
+
+ const [showPage, setShowPage] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowPage(true)
+    }, 1000)
+  }, [])
+
+  if (showPage)
+  {
   return (
     <>
     <Head>
       <title>Home</title>
     </Head>
-    <div className='flex flex-col items-center'>
-      <div className='flex justify-evenly items-center mt-5 w-screen'>
-        <Image width={150} height={150} src={hit}/>
-        <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-5xl text-orange-700 font-bold'>HIT-AICTE IDEA LAB</h1>
-        <p className='text-[20px] -mt-5'>Haldia Institute of Technology</p>
-        <p className='text-[12px] -mt-5'>(An Autonomous Institute Under MAKAUT)</p>
-        </div>
-        <Image width={150} height={150} src={idea}/>
-      </div>
-      <div className='flex w-[95%] justify-evenly mb-10 items-center text-xl mt-2 bg-blue-800 uppercase'>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Home</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white' onClick={()=>{router.push("/aboutus")}}>About Us</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Labs</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Projects</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Industries</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Gallery</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Query</h1>
-        <h1 className='hover:bg-white hover:text-blue-500 py-5 px-3 cursor-pointer text-white'>Form</h1>
-      </div>
+    <div className='flex flex-col items-center justify-start overflow-x-hidden'>
+      <Header/>
+      <Navbar/>
       <div>
       <Image  width={800} height={400} src={images[index]}/>
       </div>
-      <Marquee speed={100} direction="left" className="w-[95%]  pt-[8px] bg-gray-300 rounded border border-gray-500 my-8 h-[40px]">WINTER INTERNSHIP</Marquee>
-      <div className='w-2/3 flex justify-center items-center mt-5'>
-        <div className='w-1/5 -ml-48 pr-10'>
-          <h1 className='text-3xl -mt-[295px]'>Quick Links</h1>
+      <Marquee speed={100} direction="left" className="w-[95%] pt-[8px] bg-gray-300 rounded border border-gray-500 my-8 h-[40px]"><a className='text-black font-bold text-2xl' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/IDEA%20Lab%20Newsletter%20Final%20Draft.pdf?alt=media&token=8451387b-43b2-48ed-b5b8-920b83d005b5"} target={"_blank"} rel={"noreferrer"}>NEWS LETTER - 1ST EDITION </a><a className='text-black font-bold text-2xl ml-[800px]' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/INTERNSHIP%20ON%20ADDITIVE%20MANUFACTURING.pdf?alt=media&token=332814ad-b805-4037-aaec-eb207a8d3b6d"} target={"_blank"} rel={"noreferrer"}>WINTER INTERNSHIP</a></Marquee>
+      <div className='flex justify-between items-start mt-5 3xl:mx-60 lg2:mx-20 mx-5'>
+        <div className='lg2:w-[20%] w-[22%] pr-10'>
+          <h1 className='lg2:text-3xl md3:text-xl text-[10px]'>Quick Links</h1>
           <div className='border-b border-black mb-8'></div>
           <a className='text-black' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/FACULTY%20DEVELOPMENT%20PROGRAM%20ON%20MICRO%20%26NANO%20TECHNOLOGY.pdf?alt=media&token=ca44dda2-cc8f-423a-90fa-dd213b149bb7"} target={"_blank"} rel={"noreferrer"}>FDP on Micro and Nano Technology</a>
           <p></p>
@@ -73,55 +70,37 @@ const Index = () => {
           <p></p>
           <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/STAFF%20DEVELOPMENT%20PROGRAM%20ON%20PCB%20DESIGN%20AND%20CIRCUIT%20REALIZATION.pdf?alt=media&token=36b957a1-3fd3-4981-93b0-163282fe4726' target={"_blank"} rel={"noreferrer"}>SDP on PCB Design and Realization</a>
         </div>
-        <div className='w-3/5'>
-          <h1 className='text-3xl text-blue-900'>
+        <div className='3xl:w-[40%] w-[52%]'>
+          <h1 className='lg2:text-3xl md3:text-xl text-[12px] text-blue-900'>
             Welcome To HIT-AICTE IDEA LAB
           </h1>
           <div className='border-b border-black w-full mb-6'></div>
-          <p>AICTE-IDEA (Idea Development, Evaluation & Application) Labs are being established across the country for encouraging students for application of science, technology engineering and mathematics (STEM) fundamentals towards enhanced hands-on experience, learning by doing and even product visualization. As a common facility embedded in the institution, the IDEA Lab will make engineering graduates more imaginative and creative, besides getting basic training in the 21st century skills like- critical thinking, problem solving, design thinking, collaboration, communication, lifelong learning etc. IDEA Lab can empower the students and faculty to “engage, explore, experience, express and excel”, addressing the need of new age learning. IDEA Lab would serve as an infrastructure for faculty to take up and promote multidisciplinary education and research. Accordingly, faculty would be encouraged to get trained in these Labs and strive for creating problems/ projects/ internships in their own subjects/ disciplines and mentor the students.
-IDEA Lab will provide all facilities under one roof, for conversion of an idea into a prototype. The idea need not be always be new (which will always be encouraged) but the emphasis would be on graduating engineers working with their hands using equipment, tools and consumables (listed in the Scheme Document). With these facilities available 24x7 in the campus, more students and faculty will be encouraged to take up creative work and in the process, get training on creative thinking, problem solving, collaboration etc. which conventional labs are not focussing on. The focus will be on training students so that they become imaginative and creative and stay so at the workplaces they join. The ultimate objective is to transform engineering education with such a Lab in all colleges and for this they must proactively expose all students to the IDEA Lab, organize training sessions for interested students as well as support projects and by providing online learning materials.</p>
+          <p>AICTE-IDEA (Idea Development, Evaluation & Application) Labs are being established across the country for encouraging students for application of science, technology engineering and mathematics (STEM) fundamentals towards enhanced hands-on experience, learning by doing and even product visualization. As a common facility embedded in the institution, the IDEA Lab will make engineering graduates more imaginative and creative, besides getting basic training in the 21st century skills like- critical thinking, problem solving, design thinking, collaboration, communication, lifelong learning etc. IDEA Lab can empower the students and faculty to “engage, explore, experience, express and excel”, addressing the need of new age learning. IDEA Lab would serve as an infrastructure for faculty to take up and promote multidisciplinary education and research. Accordingly, faculty would be encouraged to get trained in these Labs and strive for creating problems/ projects/ internships in their own subjects/ disciplines and mentor the students.<br/>
+IDEA Lab will provide all facilities under one roof, for conversion of an idea into a prototype. The idea need not be always be new (which will always be encouraged) but the emphasis would be on graduating engineers working with their hands using equipment, tools and consumables (listed in the Scheme Document). With these facilities available 24x7 in the campus, more students and faculty will be encouraged to take up creative work and in the process, get training on creative thinking, problem solving, collaboration etc. which conventional labs are not focussing on.<br/> The focus will be on training students so that they become imaginative and creative and stay so at the workplaces they join. The ultimate objective is to transform engineering education with such a Lab in all colleges and for this they must proactively expose all students to the IDEA Lab, organize training sessions for interested students as well as support projects and by providing online learning materials.</p>
           <div className='bg-gray-200 h-32'>
-            <Marquee speed={100} direction="up" className="h-full text-center px-10">SDP for Industry Personels<div className='border-b border-black mb-3'></div> SDP for Students <div className='border-b border-black mb-3'></div> Upcoming Events <div className='border-b border-black mb-3'></div></Marquee>
+            <Marquee speed={100} direction="up" className="h-full text-center px-10">SDP for Industry Personels<br/>SDP for Students<br/>Upcoming Events</Marquee>
+          </div>
+          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden mx-auto p-2 flex items-end justify-start relative mt-5 h-[400px]">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.4801527541637!2d88.07153477477623!3d22.052632165465308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02f1bd905363a7%3A0x83a7ec4e6dd85f8e!2sJAGADISH%20CHANDRA%20BOSE%20INNOVATION%20AND%20RESEARCH%20CENTRE%26%20HIT%20AICTE%20IDEA%20LAB!5e0!3m2!1sen!2sin!4v1675260235450!5m2!1sen!2sin" width="100%" height="100%" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <div className='w-1/5 pl-10'>
-          <h1 className='text-3xl -mt-[190px]'>Gallery</h1>
+        <div className='lg2:w-[20%] w-[22%]'>
+          <h1 className='lg2:text-3xl md3:text-xl text-[10px]'>Notice</h1>
           <div className='border-b border-black mb-10'></div>
-          <Image src={c1} height={150} width={150}/>
-          <Image src={c2} height={150} width={150}/>
-
+          <p>02/02/2023 - Inauguration of news letter and official website</p>
+          <p>16/01/2023 - Winter Internship starts</p>
         </div>
       </div>
-      <footer className="text-gray-600 body-font w-screen">
-  <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-     <Image src={idea} height={50} width={50} />
-      <span className="ml-3 text-xl">HIT-AICTE IDEA LAB</span>
-    </a>
-    <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 HIT-AICTE IDEA LAB
-    <br/><i className="fa-solid fa-envelope"></i> iipc_hit@hithaldia.in
-    <br/><i className="fa-solid fa-phone"></i> +91 81700 30555
-    </p>
-    <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-      <a className="text-gray-500" rel="noreferrer" href='https://www.facebook.com/profile.php?id=100082574844795' target={"_blank"}>
-        <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
-          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-        </svg>
-      </a>
-      <a className="ml-3 text-gray-500" rel="noreferrer" href='https://instagram.com/hitaicteidealab?igshid=YmMyMTA2M2Y=' target={"_blank"}>
-        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
-          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-        </svg>
-      </a>
-    </span>
-  </div>
-</footer>
-
+      <Footer/>
     </div>
     </>
 
   )
+  }
+  else
+  {
+    return <Loading/>
+  }
 }
 
 export default Index
