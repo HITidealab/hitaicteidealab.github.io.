@@ -80,9 +80,6 @@ IDEA Lab will provide all facilities under one roof, for conversion of an idea i
           <div className='bg-gray-200 h-32'>
             <Marquee speed={100} direction="up" className="h-full text-center px-10">SDP for Industry Personels<br/>SDP for Students<br/>Upcoming Events</Marquee>
           </div>
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden mx-auto p-2 flex items-end justify-start relative mt-5 h-[400px]">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.4801527541637!2d88.07153477477623!3d22.052632165465308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02f1bd905363a7%3A0x83a7ec4e6dd85f8e!2sJAGADISH%20CHANDRA%20BOSE%20INNOVATION%20AND%20RESEARCH%20CENTRE%26%20HIT%20AICTE%20IDEA%20LAB!5e0!3m2!1sen!2sin!4v1675260235450!5m2!1sen!2sin" width="100%" height="100%" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          </div>
         </div>
         <div className='lg2:w-[20%] w-[22%]'>
           <h1 className='lg2:text-3xl md3:text-xl text-[10px]'>Notice</h1>
@@ -91,6 +88,9 @@ IDEA Lab will provide all facilities under one roof, for conversion of an idea i
           <p>16/01/2023 - Winter Internship starts</p>
         </div>
       </div>
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden mx-auto p-2 flex items-end justify-start relative mt-5 h-[600px]">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.4801527541637!2d88.07153477477623!3d22.052632165465308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02f1bd905363a7%3A0x83a7ec4e6dd85f8e!2sJAGADISH%20CHANDRA%20BOSE%20INNOVATION%20AND%20RESEARCH%20CENTRE%26%20HIT%20AICTE%20IDEA%20LAB!5e0!3m2!1sen!2sin!4v1675260235450!5m2!1sen!2sin" width="100%" height="100%" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       <Footer/>
     </div>
     </>
