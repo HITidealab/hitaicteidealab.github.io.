@@ -124,6 +124,9 @@ const Members = () => {
 (Assistant Professor, ECE)</p>
                     </div>
                 </div>
+                <div className='flex flex-col items-center justify-start pt-10 pb-20'>
+                    <p className='text-yellow-600 pt-12 text-4xl font-bold uppercase text-center'>HIT AICTE IDEA Lab Faculty and Staff Sub Committee</p>
+                </div>
                 <div className='md:flex justify-center'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>

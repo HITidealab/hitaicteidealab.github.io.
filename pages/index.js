@@ -55,10 +55,10 @@ const Index = () => {
       <div>
       <Image  width={800} height={400} src={images[index]}/>
       </div>
-      <Marquee speed={100} direction="left" className="w-[95%] pt-[8px] bg-gray-300 rounded border border-gray-500 my-8 h-[40px]"><a className='text-black font-bold text-2xl' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/IDEA%20Lab%20Newsletter%20Final%20Draft.pdf?alt=media&token=8451387b-43b2-48ed-b5b8-920b83d005b5"} target={"_blank"} rel={"noreferrer"}>NEWS LETTER - 1ST EDITION </a><a className='text-black font-bold text-2xl ml-[800px]' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/INTERNSHIP%20ON%20ADDITIVE%20MANUFACTURING.pdf?alt=media&token=332814ad-b805-4037-aaec-eb207a8d3b6d"} target={"_blank"} rel={"noreferrer"}>WINTER INTERNSHIP</a></Marquee>
+      <Marquee speed={100} direction="left" className="w-[95%] pt-[8px] bg-gray-300 rounded border border-gray-500 my-8 h-[40px]"><a className='text-black font-bold text-2xl' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/IDEA%20Lab%20Newsletter%20Final%20Draft.pdf?alt=media&token=8451387b-43b2-48ed-b5b8-920b83d005b5"} target={"_blank"} rel={"noreferrer"}>NEWS LETTER - 1ST EDITION </a><a className='text-black font-bold text-2xl ml-[604px]' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/INTERNSHIP%20ON%20ADDITIVE%20MANUFACTURING.pdf?alt=media&token=332814ad-b805-4037-aaec-eb207a8d3b6d"} target={"_blank"} rel={"noreferrer"}>WINTER INTERNSHIP</a></Marquee>
       <div className='flex justify-between items-start mt-5 3xl:mx-60 lg2:mx-20 mx-5'>
         <div className='lg2:w-[20%] w-[22%] pr-10'>
-          <h1 className='lg2:text-3xl md3:text-xl text-[10px]'>Quick Links</h1>
+          <h1 className='lg2:text-3xl md3:text-xl text-[10px] font-extrabold'>Quick Links</h1>
           <div className='border-b border-black mb-8'></div>
           <a className='text-black' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/FACULTY%20DEVELOPMENT%20PROGRAM%20ON%20MICRO%20%26NANO%20TECHNOLOGY.pdf?alt=media&token=ca44dda2-cc8f-423a-90fa-dd213b149bb7"} target={"_blank"} rel={"noreferrer"}>FDP on Micro and Nano Technology</a>
           <p></p>
@@ -71,18 +71,18 @@ const Index = () => {
           <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/STAFF%20DEVELOPMENT%20PROGRAM%20ON%20PCB%20DESIGN%20AND%20CIRCUIT%20REALIZATION.pdf?alt=media&token=36b957a1-3fd3-4981-93b0-163282fe4726' target={"_blank"} rel={"noreferrer"}>SDP on PCB Design and Realization</a>
         </div>
         <div className='3xl:w-[40%] w-[52%]'>
-          <h1 className='lg2:text-3xl md3:text-xl text-[12px] text-blue-900'>
+          <h1 className='lg2:text-3xl md3:text-xl text-[12px] text-blue-900 font-extrabold'>
             Welcome To HIT-AICTE IDEA LAB
           </h1>
           <div className='border-b border-black w-full mb-6'></div>
           <p>AICTE-IDEA (Idea Development, Evaluation & Application) Labs are being established across the country for encouraging students for application of science, technology engineering and mathematics (STEM) fundamentals towards enhanced hands-on experience, learning by doing and even product visualization. As a common facility embedded in the institution, the IDEA Lab will make engineering graduates more imaginative and creative, besides getting basic training in the 21st century skills like- critical thinking, problem solving, design thinking, collaboration, communication, lifelong learning etc. IDEA Lab can empower the students and faculty to “engage, explore, experience, express and excel”, addressing the need of new age learning. IDEA Lab would serve as an infrastructure for faculty to take up and promote multidisciplinary education and research. Accordingly, faculty would be encouraged to get trained in these Labs and strive for creating problems/ projects/ internships in their own subjects/ disciplines and mentor the students.<br/>
 IDEA Lab will provide all facilities under one roof, for conversion of an idea into a prototype. The idea need not be always be new (which will always be encouraged) but the emphasis would be on graduating engineers working with their hands using equipment, tools and consumables (listed in the Scheme Document). With these facilities available 24x7 in the campus, more students and faculty will be encouraged to take up creative work and in the process, get training on creative thinking, problem solving, collaboration etc. which conventional labs are not focussing on.<br/> The focus will be on training students so that they become imaginative and creative and stay so at the workplaces they join. The ultimate objective is to transform engineering education with such a Lab in all colleges and for this they must proactively expose all students to the IDEA Lab, organize training sessions for interested students as well as support projects and by providing online learning materials.</p>
           <div className='bg-gray-200 h-32'>
-            <Marquee speed={100} direction="up" className="h-full text-center px-10">SDP for Industry Personels<br/>SDP for Students<br/>Upcoming Events</Marquee>
+            <Marquee speed={100} direction="up" className="h-full text-center px-10 font-bold">SDP for Industry Personels<br/>SDP for Students<br/>Upcoming Events</Marquee>
           </div>
         </div>
         <div className='lg2:w-[20%] w-[22%]'>
-          <h1 className='lg2:text-3xl md3:text-xl text-[10px]'>Notice</h1>
+          <h1 className='lg2:text-3xl md3:text-xl text-[10px] font-extrabold'>Notice</h1>
           <div className='border-b border-black mb-10'></div>
           <p>02/02/2023 - Inauguration of news letter and official website</p>
           <p>16/01/2023 - Winter Internship starts</p>
