@@ -85,7 +85,7 @@ IDEA Lab will provide all facilities under one roof, for conversion of an idea i
           <h1 className='lg2:text-3xl md3:text-xl text-[10px] font-extrabold'>Notice</h1>
           <div className='border-b border-black mb-10'></div>
           <p>02/02/2023 - Inauguration of news letter and official website</p>
-          <p>16/01/2023 - Winter Internship starts</p>
+          <p>16/01/2023 - Winter Internship </p>
         </div>
       </div>
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden mx-auto p-2 flex items-end justify-start relative mt-5 h-[600px]">
