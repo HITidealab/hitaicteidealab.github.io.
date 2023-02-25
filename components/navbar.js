@@ -16,8 +16,7 @@ const Navbar = () => {
     <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/events")}}>Events</h1>
     <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/industries")}}>Industry Connect</h1>
     <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/gallery")}}>Gallery</h1>
-    <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/gallery")}}>Registration</h1>
-    <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/form")}}>Query</h1> 
+    <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/Registration")}}>Registration</h1>
     {/* <h1 className='hover:bg-white hover:text-blue-500 xs:py-5 py-2 xs:px-3 px-2 cursor-pointer text-center text-white'  onClick={()=>{router.push("/query")}}>Form</h1> */}
   </div>
   </>
