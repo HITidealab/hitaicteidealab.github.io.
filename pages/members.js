@@ -196,9 +196,9 @@ const Members = () => {
                     </div>
                 </div>
                 <div className='mx-8'>
-                        <div className='flex justify-center'>
+                    <div className='flex justify-center'>
                             <Image  src={a20} height={250} width={250} alt='' />
-                        </div>
+                    </div>
                         <p className='text-center text-3xl font-semibold'>Prof. Santanu Maity</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
 (Assistant Professor, ME)</p>
