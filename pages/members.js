@@ -130,6 +130,14 @@ const Members = () => {
                 <div className='md:flex justify-center'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
+                            <Image  src={a38} height={250} width={250} alt='' />
+                        </div>
+                        <p className='text-center text-3xl font-semibold'>Dr.Tarun Kanti Jana</p>
+                        <p className='text-center text-lg transform -translate-y-5'>Dean School of Engg.
+(School of Engineerig)</p>
+                    </div>
+                    <div className='mx-8'>
+                        <div className='flex justify-center'>
                             <Image  src={a5} height={250} width={250} alt='' />
                         </div>
                         <p className='text-center text-3xl font-semibold'>Dr. Avishankar Roy</p>
@@ -142,8 +150,7 @@ const Members = () => {
                         </div>
                         <p className='text-center text-3xl font-semibold'>Dr. Madhumita Das</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
-(Assistant Professor, AEIE)
-</p>
+(Assistant Professor, AEIE)</p>
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
@@ -153,25 +160,23 @@ const Members = () => {
                         <p className='text-center text-lg transform -translate-y-5'>Member
 (Assistant Professor, EE)</p>
                     </div>
+                </div>
+                <div className='md:flex justify-center'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
                             <Image  src={a14} height={250} width={250} alt='' />
                         </div>
                         <p className='text-center text-3xl font-semibold'>Prof. Surajit Mukherjee</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
-(Assistant Professor, ECE)
-</p>
+(Assistant Professor, ECE)</p>
                     </div>
-                </div>
-                <div className='md:flex justify-center'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
                             <Image  src={a9} height={250} width={250} alt='' />
                         </div>
-                        <p className='text-center text-3xl font-semibold'>Dr. Soumya Roy </p>
+                        <p className='text-center text-3xl font-semibold'>Dr. Soumya Roy</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
-(Associate Professor, AEIE)
-</p>
+(Associate Professor, AEIE)</p>
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
@@ -187,18 +192,17 @@ const Members = () => {
                         </div>
                         <p className='text-center text-3xl font-semibold'>Prof. Pritam Pain</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
-(Assistant Professor, ME)
-</p>
+(Assistant Professor, ME)</p>
                     </div>
-                    <div className='mx-8'>
+                </div>
+                <div className='mx-8'>
                         <div className='flex justify-center'>
                             <Image  src={a20} height={250} width={250} alt='' />
                         </div>
                         <p className='text-center text-3xl font-semibold'>Prof. Santanu Maity</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
 (Assistant Professor, ME)</p>
-                    </div>
-                </div>
+            </div>
                 <div className='md:flex justify-center'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
@@ -206,8 +210,7 @@ const Members = () => {
                         </div>
                         <p className='text-center text-3xl font-semibold'>Mr. Soumen Roy</p>
                         <p className='text-center text-lg transform -translate-y-5'>Member
-(Instructor, ME)
-</p>
+(Instructor, ME)</p>
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
