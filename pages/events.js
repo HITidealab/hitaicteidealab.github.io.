@@ -14,7 +14,7 @@ const EventComponent=({s,e,t})=>{
   return(
     <div className='flex flex-col justify-between items-center shadow-lg p-5'>
       <div className='h-[180px] w-[180px]'>
-      <Image src={event}/>
+      <Image src={event} alt="event"/>
       </div>
       <div className='flex justify-between'>
         <p className='px-10 border-r-[2px] border-gray-600  text-gray-500'><span className='font-bold'>Start Date :</span><br/>{s}</p>
@@ -127,7 +127,7 @@ const [showPage, setShowPage] = useState(false)
     <Head>
     <title>Events</title>
     </Head>
-   <div className='flex flex-col items-center overflow-x-hidden'>
+   <div className='flex flex-col items-center overflow-x-hidden bg-yellow-50'>
    <Header/>
    <Navbar/>
    <div className='grid lg:grid-cols-3 md3:grid-cols-2 grid-cols-1 gap-4 w-[90%] mx-auto'>

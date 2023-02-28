@@ -23,6 +23,14 @@ import g16 from "../assets/gallery/g16.jpg"
 import g17 from "../assets/gallery/g17.JPG"
 import g18 from "../assets/gallery/g18.JPG"
 
+
+import c1 from "../assets/c1.jpeg"
+import c2 from "../assets/c2.jpeg"
+import c3 from "../assets/c3.jpeg"
+import c4 from "../assets/c4.jpeg"
+import c5 from "../assets/c5.jpeg"
+import c6 from "../assets/c6.jpeg"
+
 import Image from 'next/image'
 
 
@@ -46,7 +54,7 @@ const Gallery = () => {
     <Head>
     <title>Gallery</title>
     </Head>
-  <div className='flex flex-col items-center overflow-x-hidden'>
+  <div className='flex flex-col items-center overflow-x-hidden bg-yellow-50'>
    <Header/>
    <Navbar/>
    <div className="flex flex-wrap md:-m-2 -m-1">
@@ -118,6 +126,30 @@ const Gallery = () => {
         </div>
         <div className="md:p-2 p-1 w-1/2">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g18}/>
+        </div>
+      </div>
+    </div>
+    <div className="flex flex-wrap md:-m-2 -m-1 mt-2">
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-1/2">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c1}/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c2}/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src={c5}/>
+        </div>
+      </div>
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src={c3}/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c6}/>
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c4}/>
         </div>
       </div>
     </div>

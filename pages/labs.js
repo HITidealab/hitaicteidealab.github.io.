@@ -34,7 +34,7 @@ const Labs = () => {
     <Head>
     <title>Labs</title>
     </Head>
-    <div className='flex flex-col items-center overflow-x-hidden'>
+    <div className='flex flex-col items-center overflow-x-hidden bg-yellow-50'>
    <Header/>
    <Navbar/>
    <div className='md:flex justify-center pb-20'>

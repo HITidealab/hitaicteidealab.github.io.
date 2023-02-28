@@ -1,12 +1,4 @@
 import React, { useState ,useEffect} from 'react'
-import Image from 'next/image'
-
-import c1 from "../assets/c1.jpeg"
-import c2 from "../assets/c2.jpeg"
-import c3 from "../assets/c3.jpeg"
-import c4 from "../assets/c4.jpeg"
-import c5 from "../assets/c5.jpeg"
-import c6 from "../assets/c6.jpeg"
 
 import Head from 'next/head'
 import Marquee from 'react-fast-marquee'
@@ -17,22 +9,6 @@ import Footer from '../components/footer'
 import Loading from "../components/loading"
 
 const Index = () => {
-
- 
-
-  const [images,setImages]=useState([c1,c2,c3,c4,c5,c6])
-  const [index,setIndex]=useState(0)
-
-  useEffect(()=>{
-    setTimeout(()=>{
-      if(index==5)
-      setIndex(0)
-      else
-      setIndex(index+1)
-    },2000)
-  },[index])
-
-
 
  const [showPage, setShowPage] = useState(false)
 
@@ -49,11 +25,11 @@ const Index = () => {
     <Head>
       <title>Home</title>
     </Head>
-    <div className='flex flex-col items-center justify-start overflow-x-hidden'>
+    <div className='flex flex-col items-center justify-start overflow-x-hidden bg-yellow-50'>
       <Header/>
       <Navbar/>
       <div>
-      <Image  width={800} height={400} src={images[index]}/>
+      <iframe width="1600" height="880" src="https://www.youtube.com/embed/-ITqDmQ3u7k?autoplay=1&loop=1&playlist=-ITqDmQ3u7k&controls=0&mute=1" allow="autoplay; encrypted-media"  allowfullscreen></iframe>
       </div>
       <Marquee speed={100} direction="left" className="w-[95%] pt-[8px] bg-gray-300 rounded border border-gray-500 my-8 h-[40px]"><a className='text-black font-bold text-2xl' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/IDEA%20Lab%20Newsletter%20Final%20Draft.pdf?alt=media&token=8451387b-43b2-48ed-b5b8-920b83d005b5"} target={"_blank"} rel={"noreferrer"}>NEWS LETTER - 1ST EDITION </a><a className='text-black font-bold text-2xl ml-[604px]' href={"https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/INTERNSHIP%20ON%20ADDITIVE%20MANUFACTURING.pdf?alt=media&token=332814ad-b805-4037-aaec-eb207a8d3b6d"} target={"_blank"} rel={"noreferrer"}>WINTER INTERNSHIP</a></Marquee>
       <div className='flex justify-between items-start mt-5 3xl:mx-60 lg2:mx-20 mx-5'>

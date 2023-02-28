@@ -30,7 +30,7 @@ const AboutUs = () => {
     <Head>
       <title>About Us</title>
     </Head>
-    <div className='flex flex-col items-center overflow-x-hidden'>
+    <div className='flex flex-col items-center overflow-x-hidden bg-yellow-50'>
      <Header/>
      <Navbar/>
       <p className='w-2/3 mx-auto text-xl'>Vision of the IDEA Lab is to build a robust eco-system for nurturing innovation and start-ups which will in
@@ -61,7 +61,7 @@ research.</li>
 <div className='mx-auto mt-10 md3:text-left text-center'>
   <p className='text-green-600 text-xl font-bold'>CHIEF MENTOR</p>
   <div className='h-[200px] w-[200px] md3:mx-0 mx-auto'>
-  <Image src={a37} />
+  <Image src={a37} alt="other" />
   </div>
   <p className='text-xl font-semibold -mb-1'>Prof. (Dr.) Subrata Mondal</p>
   <p className='text-xl -mb-1'>Principal, HIT</p>
@@ -72,7 +72,7 @@ research.</li>
 <div className='w-2/3 mx-20 mt-20 md3:text-left text-center'>
   <p className='text-green-600 text-xl font-bold'>COORDINATOR</p>
   <div className='h-[200px] w-[200px] mb-3 md3:mx-0 mx-auto'>
-  <Image src={a4} />
+  <Image src={a4} alt="other" />
   </div>
   <p className='text-xl font-semibold -mb-1'>Prof. (Dr.) Goutam Bose</p>
   <p className='text-xl -mb-1'>HOD, Dept. of ME, HIT</p>
@@ -82,7 +82,7 @@ research.</li>
 <div className='w-2/3 mx-20 mt-20 md3:text-left text-center'>
   <p className='text-green-600 text-xl font-bold'>CO COORDINATOR</p>
   <div className='h-[200px] w-[200px] mb-3 md3:mx-0 mx-auto'>
-  <Image src={a15} />
+  <Image src={a15} alt="other" />
   </div>
   <p className='text-xl font-semibold -mb-1'>Prof. Debadatta Ghosh</p>
   <p className='text-xl -mb-1'>Professor, Dept. of AEIE, HIT</p>
