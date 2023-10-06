@@ -7,16 +7,11 @@ import Loading from "../components/loading"
 import Head from 'next/head'
 import Image from 'next/image'
 
-import a1 from "../assets/about/a1.jpg"
-import a2 from "../assets/about/a2.jpg"
 import a3 from "../assets/about/a3.jpg"
 import a4 from "../assets/about/a4.jpg"
 import a5 from "../assets/about/a5.jpg"
 import a7 from "../assets/about/a7.jpg"
 import a9 from "../assets/about/a9.jpg"
-import a10 from "../assets/about/a10.jpg"
-import a11 from "../assets/about/a11.jpg"
-import a12 from "../assets/about/a12.jpg"
 import a13 from "../assets/about/a13.jpg"
 import a14 from "../assets/about/a14.jpg"
 import a15 from "../assets/about/a15.jpg"
@@ -26,19 +21,11 @@ import a18 from "../assets/about/a18.jpg"
 import a19 from "../assets/about/a19.jpg"
 import a20 from "../assets/about/a20.jpg"
 import a21 from "../assets/about/a21.jpg"
-import a23 from "../assets/about/a23.jpg"
 import a24 from "../assets/about/a24.jpg"
-import a25 from "../assets/about/a25.jpg"
-import a26 from "../assets/about/a26.jpg"
-import a27 from "../assets/about/a27.jpg"
 import a28 from "../assets/about/a28.jpg"
 import a29 from "../assets/about/a29.jpg"
-import a30 from "../assets/about/a30.jpg"
-import a31 from "../assets/about/a31.jpg"
 import a33 from "../assets/about/a33.jpg"
-import a34 from "../assets/about/a34.jpg"
 import a35 from "../assets/about/a35.jpg"
-import a36 from "../assets/about/a36.jpg"
 import a37 from "../assets/about/a37.jpg"
 import a38 from "../assets/about/a38.jpg"
 import a39 from "../assets/about/a39.jpg"
@@ -51,7 +38,7 @@ import a45 from "../assets/about/a45.jpg"
 import a46 from "../assets/about/a46.jpg"
 import a47 from "../assets/about/a47.jpg"
 
-const Members = () => {
+const Members2324 = () => {
 
 
 
@@ -384,4 +371,4 @@ return <Loading />
 }
 }
 
-export default Members
+export default Members2324
