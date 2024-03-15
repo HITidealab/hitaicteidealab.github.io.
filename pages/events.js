@@ -189,13 +189,13 @@ const Events = () => {
     "imag":e25,
     "startYear":"2023-05-02",
     "endYear":"2023-05-06",
-    "title":"Skill Development Programme for Students on Buildng with 3D printing",
+    "title":"Skill Development Programme for Students on Building with 3D printing",
   },
   {
     "imag":e23,
     "startYear":"2023-06-05",
     "endYear":"2023-06-10",
-    "title":"Skill Development Programme for Students on Buildng with 3D printing",
+    "title":"Skill Development Programme for Students on Building with 3D printing",
   },
   {
     "imag":e8,
