@@ -38,7 +38,7 @@ import e26 from "../assets/event_banners/26.jpg"
 import e27 from "../assets/event_banners/27.jpg"
 import e28 from "../assets/event_banners/28.jpg"
 import e29 from "../assets/event_banners/29.jpg"
-
+import e30 from "../assets/event_banners/30.png"
 
 const EventComponent=({im,s,e,t})=>{
   return(
@@ -226,6 +226,12 @@ const Events = () => {
     "startYear":"2023-08-16",
     "endYear":"2023-08-22",
     "title":"Skill Development Programme for Students on 3D Printing & 3D Scanning",
+  },
+  {
+    "imag":e30,
+    "startYear":"2024-02-03",
+    "endYear":"2024-01-29",
+    "title":"Faculty Development Program on Application Developments in the Lab on a Chip Technology for Fluid and Thermal Sciences",
   },
 ]
 
