@@ -92,13 +92,7 @@ return (
             </div>
         </div>
         <div className='md:flex justify-center'>
-            <div className='mx-8'>
-                <div className='flex justify-center'>
-                    <Image src={a17} height={250} width={250} alt='' />
-                </div>
-                <p className='text-center text-3xl font-semibold'>Dr. Sreerup Banerjee</p>
-                <p className='text-center text-lg transform -translate-y-5'>Technical Guru (Associate Professor, ME)</p>
-            </div>
+            
             <div className='mx-8'>
                 <div className='flex justify-center'>
                     <Image src={a19} height={250} width={250} alt='' />
@@ -316,7 +310,7 @@ return (
             <div className='flex justify-center'>
                 <Image src={a42} height={250} width={250} alt='' />
             </div>
-            <p className='text-center text-3xl font-semibold'>Sahej Tarnach</p>
+            <p className='text-center text-3xl font-semibold'>Sahaj Tarnach</p>
             <p className='text-center text-lg transform -translate-y-5'>Member
                 (3rd year, ME)</p>
         </div>
