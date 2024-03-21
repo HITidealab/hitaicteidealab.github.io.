@@ -12,7 +12,7 @@ const Footer = () => {
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 HIT-AICTE IDEA LAB
     <br/><i className="fa-solid fa-envelope"></i> iipc_hit@hithaldia.in
-    <br/><i className="fa-solid fa-phone"></i> +91 81700 30555
+    <br/><i className="fa-solid fa-phone"></i>  +91 70019 99192
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a className="text-gray-500" rel="noreferrer" href='https://www.facebook.com/profile.php?id=100082574844795' target={"_blank"}>
