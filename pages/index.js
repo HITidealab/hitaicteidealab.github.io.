@@ -45,6 +45,40 @@ const Index = () => {
           <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/OPEN%20DAY%20FOR%20SCHOOL%20STUDENTS%20PROGRAMME.pdf?alt=media&token=3e7a9bc3-05c7-46f0-9083-675a09025e10' target={"_blank"} rel={"noreferrer"}>Open Day for School</a>
           <p></p>
           <a className='text-black' href='https://firebasestorage.googleapis.com/v0/b/idea-lab-1d103.appspot.com/o/STAFF%20DEVELOPMENT%20PROGRAM%20ON%20PCB%20DESIGN%20AND%20CIRCUIT%20REALIZATION.pdf?alt=media&token=36b957a1-3fd3-4981-93b0-163282fe4726' target={"_blank"} rel={"noreferrer"}>SDP on PCB Design and Realization</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/qiW3UYY2VaE' target={"_blank"} rel={"noreferrer"}>SDP on From Designing to Prototyping</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/wSgMeD15ICg' target={"_blank"} rel={"noreferrer"}>Professional Skilling Program for ITI students</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/0PACgA7lY0M' target={"_blank"} rel={"noreferrer"}>SDP on Layered Freeform Manufacturing</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/GDI37m5_Q7g' target={"_blank"} rel={"noreferrer"}>FDP on MICRO and NANO Technologies</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/DWDO01chQJg' target={"_blank"} rel={"noreferrer"}>FDP on IoT</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/LGk9Gf7jzLA' target={"_blank"} rel={"noreferrer"}>ideation Workshop for Students</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/mdRCFCEc7tk' target={"_blank"} rel={"noreferrer"}>FDP on Introduction Additive Manufacturing</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/TayR_o9xeLQ' target={"_blank"} rel={"noreferrer"}>SDP on Solid Freeform Fabrication</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/xPFlQJgAKRQ' target={"_blank"} rel={"noreferrer"}>SDP on CO2 Laser Cutter</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/4PsOc4KafnE' target={"_blank"} rel={"noreferrer"}>SDP on 3D Printing</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/T0YPp5DJ0Sk' target={"_blank"} rel={"noreferrer"}>CO2 Laser Cutting Process</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/-LCnn0XDXbE' target={"_blank"} rel={"noreferrer"}>FDP Programme on 3D Printing</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/1y9nZzt4DFY' target={"_blank"} rel={"noreferrer"}>Awareness Workshop for Industry</a>
+          <p></p>
+          <a className='text-black' href='https://www.youtube.com/live/Q_BVhGXX_zM' target={"_blank"} rel={"noreferrer"}>FDP on Manufacturing and Fabrication of Composite Board</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/0iOG0IXTCq4' target={"_blank"} rel={"noreferrer"}>SDP on CNC Machining with 3D Printing</a>
+          <p></p>
+          <a className='text-black' href='https://youtu.be/l9f6fkIdwuI' target={"_blank"} rel={"noreferrer"}>FDP on Additive Manufacturing and Embedded System</a>
+          <p></p>
+          <a className='text-black' href='https://www.youtube.com/live/i76P088FNq0' target={"_blank"} rel={"noreferrer"}>Live session on FDP on Additive Manufacturing and Embedded System</a>
         </div>
         <div className='3xl:w-[40%] w-[52%]'>
           <h1 className='lg2:text-3xl md3:text-xl text-[12px] text-blue-900 font-extrabold'>
