@@ -37,6 +37,7 @@ import a44 from "../assets/about/a44.jpg"
 import a45 from "../assets/about/a45.jpg"
 import a46 from "../assets/about/a46.jpg"
 import a47 from "../assets/about/a47.jpg"
+import a48 from "../assets/about/a48.jpg"
 
 const Members2324 = () => {
 
@@ -294,6 +295,14 @@ return (
                 <Image src={a40} height={250} width={250} alt='' />
             </div>
             <p className='text-center text-3xl font-semibold'>Indrajeet Sen</p>
+            <p className='text-center text-lg transform -translate-y-5'>Member
+                (3rd year, ME)</p>
+        </div>
+        <div className='mx-8'>
+            <div className='flex justify-center'>
+                <Image src={a48} height={250} width={250} alt='' />
+            </div>
+            <p className='text-center text-3xl font-semibold'>Niloy Bhattacharyya</p>
             <p className='text-center text-lg transform -translate-y-5'>Member
                 (3rd year, ME)</p>
         </div>
