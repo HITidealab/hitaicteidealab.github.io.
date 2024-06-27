@@ -59,96 +59,96 @@ const Gallery = () => {
    <Navbar/>
    <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g1}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g2}/>
         </div>
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={g3}/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={g4}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g5}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g6}/>
         </div>
       </div>
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1 mt-2">
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g7}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g8}/>
         </div>
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={g9}/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={g10}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g11}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g12}/>
         </div>
       </div>
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1 mt-2">
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g13}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g14}/>
         </div>
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={g15}/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={g16}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g17}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={g18}/>
         </div>
       </div>
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1 mt-2">
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c1}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c2}/>
         </div>
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={c5}/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-full">
+        <div className="md:p-2 p-1 w-full scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full h-full object-cover object-center block" src={c3}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c6}/>
         </div>
-        <div className="md:p-2 p-1 w-1/2">
+        <div className="md:p-2 p-1 w-1/2 scale-100 hover:scale-125 transition-all duration-500 z-10">
           <Image alt="gallery" className="w-full object-cover h-full object-center block" src={c4}/>
         </div>
       </div>
